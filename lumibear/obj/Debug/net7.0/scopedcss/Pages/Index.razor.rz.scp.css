@@ -1,6 +1,11 @@
+@font-face {
+    font-family: PoiretOne;
+    src: url('/Assets/Fonts/PoiretOne-Regular.ttf');
+}
+
+
 .MainButton[b-rpe8thos8b]{
     background-color: transparent;
-    font-family: inherit;
     border: 1px solid white;
     color: white;
     box-shadow: none;
@@ -94,4 +99,45 @@ a[b-rpe8thos8b] {
         object-fit: contain;
         height: 113px;
     }
+
+.wrapper .carousel[b-rpe8thos8b] {
+    white-space: nowrap;
+    max-width: 1200px;
+    cursor: pointer;
+}
+
+.carousel img[b-rpe8thos8b] {
+    height: 100%!important;
+    object-fit : cover;
+    width: calc(100%/3);
+    margin: 30px;
+}
+
+    .carousel img:hover[b-rpe8thos8b] {
+        width: calc(100%/2.5);
+    }
+
+.wrapper[b-rpe8thos8b] {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: white;
+    min-height: 50vh;
+    margin-left: 4px;
+}
+
+    .wrapper i[b-rpe8thos8b] {
+        height: 46px;
+        width: 46px;
+        text-align: center;
+        line-height: 46px;
+        background: #fff;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transform: translateY(-50%);
+        margin: 10px;
+    }
+
 

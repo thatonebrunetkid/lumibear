@@ -20,4 +20,12 @@
   <ItemGroup>
     <None Remove="wwwroot\Assets\MainPage\mainLogo.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Assets\Fonts\" />
+    <Content Remove="wwwroot\Assets\Candles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\Assets\Fonts\" />
+    <Folder Include="wwwroot\Assets\Candles\" />
+  </ItemGroup>
 </Project>

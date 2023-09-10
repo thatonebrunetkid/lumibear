@@ -13,6 +13,50 @@
       "PackagePath": "staticwebassets/lumibear.styles.css"
     },
     {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle1.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle1.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle10.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle10.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle2.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle2.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle3.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle3.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle4.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle4.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle5.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle5.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle6.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle6.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle7.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle7.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle8.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle8.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Candles/candle9.jpg",
+      "PackagePath": "staticwebassets/Assets/Candles/candle9.jpg"
+    },
+    {
+      "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/Fonts/PoiretOne-Regular.ttf",
+      "PackagePath": "staticwebassets/Assets/Fonts/PoiretOne-Regular.ttf"
+    },
+    {
       "Id": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/wwwroot/Assets/MainPage/MainDivBg.jpg",
       "PackagePath": "staticwebassets/Assets/MainPage/MainDivBg.jpg"
     },
