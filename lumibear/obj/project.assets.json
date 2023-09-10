@@ -1801,24 +1801,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/mateuszaugustyniak/.nuget/packages/": {}
+    "C:\\Users\\mateu\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/lumibear.csproj",
+      "projectUniqueName": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\lumibear.csproj",
       "projectName": "lumibear",
-      "projectPath": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/lumibear.csproj",
-      "packagesPath": "/Users/mateuszaugustyniak/.nuget/packages/",
-      "outputPath": "/Users/mateuszaugustyniak/Documents/lumibear/lumibear/obj/",
+      "projectPath": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\lumibear.csproj",
+      "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/mateuszaugustyniak/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1858,12 +1866,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[7.0.2, 7.0.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200-preview.22628.1\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
