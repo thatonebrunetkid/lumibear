@@ -9,29 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = lumibear
 build_property.RootNamespace = lumibear
-build_property.ProjectDir = D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\
+build_property.ProjectDir = /Users/mateuszaugustyniak/Documents/lumibear/lumibear/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Users\mateu\source\repos\lumibear\lumibear\lumibear
+build_property.MSBuildProjectDirectory = /Users/mateuszaugustyniak/Documents/lumibear/lumibear
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/App.razor]
+[/Users/mateuszaugustyniak/Documents/lumibear/lumibear/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[/Users/mateuszaugustyniak/Documents/lumibear/lumibear/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/_Imports.razor]
+[/Users/mateuszaugustyniak/Documents/lumibear/lumibear/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-vhrytik8p7
+[/Users/mateuszaugustyniak/Documents/lumibear/lumibear/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rpe8thos8b
 
-[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-usexojocug
+[/Users/mateuszaugustyniak/Documents/lumibear/lumibear/Pages/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmF2QmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-lzd9fvwj6b
+
+[/Users/mateuszaugustyniak/Documents/lumibear/lumibear/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-s82kwws74j

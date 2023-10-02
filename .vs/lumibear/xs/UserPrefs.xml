@@ -1,7 +1,11 @@
 ﻿<Properties StartupConfiguration="{9DC40EDA-AB29-4C24-8DED-04838992E6C5}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="lumibear/Pages/Index.razor.css">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="lumibear/Pages/Index.razor">
     <Files>
-      <File FileName="lumibear/Pages/Index.razor" Line="115" Column="29" />
+      <File FileName="lumibear/Pages/Index.razor" Line="117" Column="1" />
       <File FileName="lumibear/Pages/Index.razor.css" Line="114" Column="2" />
     </Files>
     <Pads>
@@ -14,9 +18,7 @@
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="Assets" expanded="True" />
-                <Node name="css" expanded="True">
-                  <Node name="app.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -24,11 +26,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.lumibear PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.lumibear PreferredExecutionTarget="/Applications/Brave Browser.app" />
 </Properties>
