@@ -4,7 +4,7 @@
 }
 
 
-.MainButton[b-rpe8thos8b]{
+.MainButton[b-vhrytik8p7]{
     background-color: transparent;
     border: 1px solid white;
     color: white;
@@ -16,7 +16,7 @@
     transition: 1s;
 }
 
-.MainButton:hover[b-rpe8thos8b]{
+.MainButton:hover[b-vhrytik8p7]{
     background-color: white;
     border: 1px solid black;
     color: black;
@@ -24,20 +24,20 @@
 
 
 
-.wrapper .carousel[b-rpe8thos8b] {
+.wrapper .carousel[b-vhrytik8p7] {
     white-space: nowrap;
     max-width: 1200px;
     cursor: pointer;
 }
 
-.carousel img[b-rpe8thos8b] {
+.carousel img[b-vhrytik8p7] {
     height: 100%!important;
     object-fit : cover;
     width: calc(100%/3);
     margin: 30px;
 }
 
-.wrapper[b-rpe8thos8b] {
+.wrapper[b-vhrytik8p7] {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +47,7 @@
     margin-left: 4px;
 }
 
-    .wrapper i[b-rpe8thos8b] {
+    .wrapper i[b-vhrytik8p7] {
         height: 46px;
         width: 46px;
         text-align: center;

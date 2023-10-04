@@ -3,7 +3,27 @@
 <PageTitle>LumiBear</PageTitle>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-<body>
+<body onscroll="DoOnScroll()">
+    <script>
+        function DoOnScroll() {
+            if (window.scrollY === 0) {
+                document.getElementById("upper").style.backgroundColor = "transparent";
+                document.getElementById("lower").style.backgroundColor = "transparent";
+                document.getElementById("upper").style.transition = "all 0.25s";
+                document.getElementById("lower").style.transition = "all 0.25s";
+                document.getElementById("header").style.position = "static";
+            } else {
+                document.getElementById("header").style.position = "fixed";
+                document.getElementById("upper").style.backgroundColor = "black";
+                document.getElementById("lower").style.backgroundColor = "black";
+                document.getElementById("header").style.zIndex = 999;
+                document.getElementById("upper").style.zIndex = 999;
+                document.getElementById("lower").style.zIndex = 999;
+                document.getElementById("upper").style.transition = "all 0.25s";
+                document.getElementById("lower").style.transition = "all 0.25s";
+            }
+        }
+    </script>
     <div style="background: url('Assets/MainPage/MainDivBg.jpg'); height: 130%!important; bottom: 0!important; background-position: center; background-repeat: no-repeat; background-size: cover">
         <NavBar></NavBar>
         <div style="padding: 0; min-height: 90vh">
@@ -37,35 +57,10 @@
             <div style="padding: 0; min-height: 90vh;">
                 <img src="Assets/MainPage/home.gif" style="width: 50%; margin-left: 27%"/>
                 <div>
-                    <button class="MainButton" type="submit" style="display: inline-block; margin: 0 auto; left: 46%; position: relative; margin: 10px; font-family: PoiretOne;">Obejrzyj Kolekcję</button>
+                    <a style="display: inline-block; margin: 0 auto; left: 46%; position: relative; margin: 12px; font-family: PoiretOne; font-size: 26px; color: white">Premiera wkrótce</a>
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <section>
-        <div style="background-color: white">
-            <center><a style="font-family: PoiretOne; font-size: 2.5em; margin: 20px;">Miś Dla Domu</a></center>
-        </div>
-        <div class="wrapper">
-            <i class="fa-solid fa-angle-left" @onclick="MoveSlideshowRight"></i>
-            <div class="carousel">
-                <img src="@($"Assets/Home/home{ImageIndex1}.webp")"/>
-                <img src="@($"Assets/Home/home{ImageIndex2}.webp")"/>
-                <img src="@($"Assets/Home/home{ImageIndex3}.webp")"/>
-            </div>
-            <i class="fa-solid fa-angle-right" style="margin-left: 200px" @onclick="MoveSlideshowLeft"></i>
-        </div>
-    </section>
-
-
-    <section>
-      <div class="wrapper">
-          <div class="carousel">
-
-          </div>
-      </div>
     </section>
 </body>
 

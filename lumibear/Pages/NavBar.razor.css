@@ -1,4 +1,9 @@
-﻿.header_desktop {
+﻿@font-face {
+    font-family: PoiretOne;
+    src: url('/Assets/Fonts/PoiretOne-Regular.ttf');
+}
+
+.header_desktop {
     position: static;
     width: 100%;
 }
@@ -85,3 +90,44 @@ a {
         object-fit: contain;
         height: 113px;
     }
+
+.header_desktop_lower {
+    border-top: 1px solid hsla(0,0%,100%,0);
+}
+
+.header_desktop_bar_c{
+    display: flex;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.header__menu caps{
+    letter-spacing: 1em;
+    z-index: 5;
+}
+
+header__menu__inner{
+    display: flex;
+    height: 100%;
+}
+
+nav {
+    margin-left: 35%;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 28px;
+    transition: 1s;
+    font-family: PoiretOne;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}

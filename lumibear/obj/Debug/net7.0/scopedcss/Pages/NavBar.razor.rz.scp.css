@@ -1,9 +1,14 @@
-.header_desktop[b-lzd9fvwj6b] {
+@font-face {
+    font-family: PoiretOne;
+    src: url('/Assets/Fonts/PoiretOne-Regular.ttf');
+}
+
+.header_desktop[b-qhk9bphgky] {
     position: static;
     width: 100%;
 }
 
-.header_desktop_upper[b-lzd9fvwj6b] {
+.header_desktop_upper[b-qhk9bphgky] {
     background-color: transparent;
     padding: 10px;
     display: flex;
@@ -13,7 +18,7 @@
     flex-wrap: nowrap;
 }
 
-    .header_desktop_upper.scroll[b-lzd9fvwj6b] {
+    .header_desktop_upper.scroll[b-qhk9bphgky] {
         background-color: black;
         padding: 10px;
         display: flex;
@@ -23,24 +28,24 @@
         flex-wrap: nowrap;
     }
 
-a[b-lzd9fvwj6b] {
+a[b-qhk9bphgky] {
     text-decoration: none;
     color: white;
 }
 
-.header_desktop_bar_left .social_links a[b-lzd9fvwj6b] {
+.header_desktop_bar_left .social_links a[b-qhk9bphgky] {
     align-items: center;
     display: flex;
     height: 100%;
     padding: 5px 11px;
 }
 
-.header_desktop .icon[b-lzd9fvwj6b] {
+.header_desktop .icon[b-qhk9bphgky] {
     height: 18px;
     width: 18px;
 }
 
-.header_desktop_bar_left .social_links[b-lzd9fvwj6b] {
+.header_desktop_bar_left .social_links[b-qhk9bphgky] {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -48,22 +53,22 @@ a[b-lzd9fvwj6b] {
     vertical-align: initial;
 }
 
-    .header_desktop_bar_left .social_links li[b-lzd9fvwj6b] {
+    .header_desktop_bar_left .social_links li[b-qhk9bphgky] {
         padding: 0;
         margin: 0 0 0.25em;
     }
 
-    .header_desktop_bar_left .social_links svg[b-lzd9fvwj6b] {
+    .header_desktop_bar_left .social_links svg[b-qhk9bphgky] {
         fill: white;
     }
 
-.header_desktop_bar_center[b-lzd9fvwj6b] {
+.header_desktop_bar_center[b-qhk9bphgky] {
     flex-grow: 0;
     display: flex;
     align-self: stretch;
 }
 
-.header_logo_link[b-lzd9fvwj6b] {
+.header_logo_link[b-qhk9bphgky] {
     margin: 0;
     padding: 15px 0;
     display: flex;
@@ -71,17 +76,58 @@ a[b-lzd9fvwj6b] {
     justify-content: center;
 }
 
-.header_logo_link_image[b-lzd9fvwj6b] {
+.header_logo_link_image[b-qhk9bphgky] {
     display: block;
     text-decoration: none;
     position: relative;
     max-width: 50vw;
 }
 
-    .header_logo_link_image img[b-lzd9fvwj6b] {
+    .header_logo_link_image img[b-qhk9bphgky] {
         opacity: 1;
         left: 0;
         display: block;
         object-fit: contain;
         height: 113px;
     }
+
+.header_desktop_lower[b-qhk9bphgky] {
+    border-top: 1px solid hsla(0,0%,100%,0);
+}
+
+.header_desktop_bar_c[b-qhk9bphgky]{
+    display: flex;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.header__menu caps[b-qhk9bphgky]{
+    letter-spacing: 1em;
+    z-index: 5;
+}
+
+header__menu__inner[b-qhk9bphgky]{
+    display: flex;
+    height: 100%;
+}
+
+nav[b-qhk9bphgky] {
+    margin-left: 35%;
+}
+
+button[b-qhk9bphgky] {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 28px;
+    transition: 1s;
+    font-family: PoiretOne;
+}
+
+button:hover[b-qhk9bphgky] {
+    background-color: white;
+    color: black;
+}
