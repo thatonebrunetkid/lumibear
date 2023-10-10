@@ -27,5 +27,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\Assets\Fonts\" />
     <Folder Include="wwwroot\Assets\Candles\" />
+    <Folder Include="wwwroot\Assets\ScentedStocks\" />
   </ItemGroup>
 </Project>

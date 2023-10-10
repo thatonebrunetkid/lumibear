@@ -1,0 +1,89 @@
+﻿<body>
+    <section onload="executeAnim()">
+        <div class="carouselContainer" id="carouselContainer">
+            <div class="insideContainer" id="insideContainer">
+                <center><a class="textHeader">Miś wywąchał specjalnie dla Ciebie!</a></center>
+                <div class="imageContainer" id="imageContainer">
+                    <div class="image" id="image">
+                        <div class="insideTextContainer">
+                            <center><a class="insideText" id="insideText">Scented candle</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="descriptionContainer" id="descriptionContainer">
+                    <center><a>Tutaj będą informacje na temat tego jaki to zapaszek</a></center>
+                    <center><a>oraz jaki ma skład</a></center>
+                    <center><a>- element 1</a></center>
+                    <center><a>- element 2</a></center>
+                    <center><a>- element 3</a></center>
+                </div>
+                <button onclick="executeAnim()">aaaaaa</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+<script>
+    var startIndex = 0;
+    var object = document.getElementById("carouselContainer");
+    var imageObject = document.getElementById("image");
+    var textObject = document.getElementById("insideText");
+
+    var arrayNames = ['Kawa', 'Pomarańcza', 'Spacer po lesie', 'One', 'Opium', 'Bawełna'];
+    var arrayColors = ['#0F0F08', '#EF7C2B', '#1A4013', '#29216B', '#450A52', '#F9F2CE'];
+
+    function DoCarousel() {
+        if (startIndex > arrayColors.length - 1) { startIndex = 0; }
+        object.style.backgroundColor = arrayColors[startIndex];
+        textObject.innerText = arrayNames[startIndex];
+        imageObject.style.backgroundColor = arrayColors[startIndex];
+        if (textObject.innerText == 'Bawełna') {
+            textObject.style.color = "black";
+        } else { textObject.style.color = "white"; }
+        startIndex = startIndex + 1;
+    }
+
+    function executeAnim()
+    {
+        setInterval(() => { DoCarousel() }, 5000);
+    }
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+    var startIndex = 0;
+    var object = document.getElementById("carouselContainer");
+    var imageObject = document.getElementById("image");
+    var textObject = document.getElementById("insideText");
+
+    const arrayNames = ['Kawa', 'Pomarańcza', 'Spacer po lesie', 'One', 'Opium', 'Bawełna'];
+    const arrayColors = ['#0F0F08', '#EF7C2B', '#1A4013', '#29216B', '#450A52', '#F9F2CE'];
+
+    function DoCarousel() { 
+        object.style.backgroundColor = arrayColors[startIndex];
+        textObject.innerText = arrayName[startIndex];
+        imageObject.style.backgroundColor = arrayColors[startIndex];
+        startIndex = startIndex + 1;
+    }
+
+    function executeAnim() { 
+
+        do {
+            if (startIndex == arrayNames.length - 1) { startIndex = 0; }
+            setTimeout(() => { DoCarousel() }, 2000);
+        }while(startIndex != arrayNames.length)
+    }
+</script>
+
+
+
+
+

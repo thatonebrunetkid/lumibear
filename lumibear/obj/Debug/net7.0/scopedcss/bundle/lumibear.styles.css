@@ -1,11 +1,145 @@
-/* /Pages/Index.razor.rz.scp.css */
+/* /Pages/Common/NavBar.razor.rz.scp.css */
+@font-face {
+    font-family: PoiretOne;
+    src: url('/Assets/Fonts/PoiretOne-Regular.ttf');
+}
+
+.header_desktop[b-ee80km7zna] {
+    position: static;
+    width: 100%;
+}
+
+.header_desktop_upper[b-ee80km7zna] {
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+    .header_desktop_upper.scroll[b-ee80km7zna] {
+        background-color: black;
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+a[b-ee80km7zna] {
+    text-decoration: none;
+    color: white;
+}
+
+.header_desktop_bar_left .social_links a[b-ee80km7zna] {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 5px 11px;
+}
+
+.header_desktop .icon[b-ee80km7zna] {
+    height: 18px;
+    width: 18px;
+}
+
+.header_desktop_bar_left .social_links[b-ee80km7zna] {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 -11px;
+    vertical-align: initial;
+}
+
+    .header_desktop_bar_left .social_links li[b-ee80km7zna] {
+        padding: 0;
+        margin: 0 0 0.25em;
+    }
+
+    .header_desktop_bar_left .social_links svg[b-ee80km7zna] {
+        fill: white;
+    }
+
+.header_desktop_bar_center[b-ee80km7zna] {
+    flex-grow: 0;
+    display: flex;
+    align-self: stretch;
+}
+
+.header_logo_link[b-ee80km7zna] {
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_logo_link_image[b-ee80km7zna] {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    max-width: 50vw;
+}
+
+    .header_logo_link_image img[b-ee80km7zna] {
+        opacity: 1;
+        left: 0;
+        display: block;
+        object-fit: contain;
+        height: 113px;
+    }
+
+.header_desktop_lower[b-ee80km7zna] {
+    border-top: 1px solid hsla(0,0%,100%,0);
+}
+
+.header_desktop_bar_c[b-ee80km7zna]{
+    display: flex;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.header__menu caps[b-ee80km7zna]{
+    letter-spacing: 1em;
+    z-index: 5;
+}
+
+header__menu__inner[b-ee80km7zna]{
+    display: flex;
+    height: 100%;
+}
+
+nav[b-ee80km7zna] {
+    margin-left: 40%;
+}
+
+button[b-ee80km7zna] {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 28px;
+    transition: 1s;
+    font-family: PoiretOne;
+}
+
+button:hover[b-ee80km7zna] {
+    background-color: white;
+    color: black;
+}
+/* /Pages/Homescreen/Index.razor.rz.scp.css */
 @font-face {
     font-family: PoiretOne;
     src: url('/Assets/Fonts/PoiretOne-Regular.ttf');
 }
 
 
-.MainButton[b-vhrytik8p7]{
+.MainButton[b-n6ysx53t2h]{
     background-color: transparent;
     border: 1px solid white;
     color: white;
@@ -17,7 +151,7 @@
     transition: 1s;
 }
 
-.MainButton:hover[b-vhrytik8p7]{
+.MainButton:hover[b-n6ysx53t2h]{
     background-color: white;
     border: 1px solid black;
     color: black;
@@ -25,20 +159,20 @@
 
 
 
-.wrapper .carousel[b-vhrytik8p7] {
+.wrapper .carousel[b-n6ysx53t2h] {
     white-space: nowrap;
     max-width: 1200px;
     cursor: pointer;
 }
 
-.carousel img[b-vhrytik8p7] {
+.carousel img[b-n6ysx53t2h] {
     height: 100%!important;
     object-fit : cover;
     width: calc(100%/3);
     margin: 30px;
 }
 
-.wrapper[b-vhrytik8p7] {
+.wrapper[b-n6ysx53t2h] {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +182,7 @@
     margin-left: 4px;
 }
 
-    .wrapper i[b-vhrytik8p7] {
+    .wrapper i[b-n6ysx53t2h] {
         height: 46px;
         width: 46px;
         text-align: center;
@@ -63,140 +197,100 @@
 
 
 
-/* /Pages/NavBar.razor.rz.scp.css */
+/* /Pages/Homescreen/ScentedCarousel.razor.rz.scp.css */
 @font-face {
     font-family: PoiretOne;
     src: url('/Assets/Fonts/PoiretOne-Regular.ttf');
 }
 
-.header_desktop[b-qhk9bphgky] {
-    position: static;
-    width: 100%;
-}
-
-.header_desktop_upper[b-qhk9bphgky] {
-    background-color: transparent;
-    padding: 10px;
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-    .header_desktop_upper.scroll[b-qhk9bphgky] {
-        background-color: black;
-        padding: 10px;
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-
-a[b-qhk9bphgky] {
-    text-decoration: none;
+.textHeader[b-tnm5kszam1]{
+    text-align: center;
+    font-family: PoiretOne;
+    font-size: 68px;
     color: white;
+    text-decoration: none;
 }
 
-.header_desktop_bar_left .social_links a[b-qhk9bphgky] {
+.image[b-tnm5kszam1]{
+    min-height: 40vh!important;
+    width: 40%!important;
+    background-color: darkorange;
+    margin: 25px;
+    float: left;
+    transition: all 1s;
+}
+
+.insideTextContainer[b-tnm5kszam1]{
+    justify-content: center;
     align-items: center;
     display: flex;
-    height: 100%;
-    padding: 5px 11px;
+    margin-top: 27%;
 }
 
-.header_desktop .icon[b-qhk9bphgky] {
-    height: 18px;
-    width: 18px;
+
+.insideText[b-tnm5kszam1]{
+    font-family: PoiretOne;
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    transition: all 1s;
 }
 
-.header_desktop_bar_left .social_links[b-qhk9bphgky] {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 0 -11px;
-    vertical-align: initial;
+.descriptionContainer[b-tnm5kszam1]{
+    font-family: PoiretOne;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 8%;
 }
 
-    .header_desktop_bar_left .social_links li[b-qhk9bphgky] {
-        padding: 0;
-        margin: 0 0 0.25em;
-    }
 
-    .header_desktop_bar_left .social_links svg[b-qhk9bphgky] {
-        fill: white;
-    }
 
-.header_desktop_bar_center[b-qhk9bphgky] {
-    flex-grow: 0;
-    display: flex;
-    align-self: stretch;
-}
-
-.header_logo_link[b-qhk9bphgky] {
-    margin: 0;
-    padding: 15px 0;
+.carouselContainer[b-tnm5kszam1] {
+    background-color: darkorange;
+    width: 100%;
+    min-height: 70vh !important;
+    max-width: 100% !important;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
+    box-shadow: 0 0 300px rgba(0,0,0,2) inset;
+    transition: all 1s;
 }
 
-.header_logo_link_image[b-qhk9bphgky] {
-    display: block;
-    text-decoration: none;
-    position: relative;
-    max-width: 50vw;
+.insideContainer[b-tnm5kszam1]{
+    background-color: black;
+    min-width: 90%;
+    min-height: 60vh;
+    margin: 1%;
+    border-radius: 25px;
+    opacity: 0.8;
 }
 
-    .header_logo_link_image img[b-qhk9bphgky] {
-        opacity: 1;
-        left: 0;
-        display: block;
-        object-fit: contain;
-        height: 113px;
-    }
-
-.header_desktop_lower[b-qhk9bphgky] {
-    border-top: 1px solid hsla(0,0%,100%,0);
+li[b-tnm5kszam1]{
+    display: inline-block;
+    min-width: 50%;
 }
 
-.header_desktop_bar_c[b-qhk9bphgky]{
-    display: flex;
-    align-self: stretch;
-    flex-grow: 0;
-}
-
-.header__menu caps[b-qhk9bphgky]{
-    letter-spacing: 1em;
-    z-index: 5;
-}
-
-header__menu__inner[b-qhk9bphgky]{
-    display: flex;
-    height: 100%;
-}
-
-nav[b-qhk9bphgky] {
-    margin-left: 35%;
-}
-
-button[b-qhk9bphgky] {
+.MainButton[b-tnm5kszam1] {
     background-color: transparent;
+    border: 1px solid white;
     color: white;
     box-shadow: none;
-    border: 0;
     cursor: pointer;
     font-size: 16px;
     padding: 14px 28px;
+    margin: 10px;
     transition: 1s;
-    font-family: PoiretOne;
 }
 
-button:hover[b-qhk9bphgky] {
-    background-color: white;
-    color: black;
-}
+    .MainButton:hover[b-tnm5kszam1] {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+    }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-usexojocug] {
     position: relative;

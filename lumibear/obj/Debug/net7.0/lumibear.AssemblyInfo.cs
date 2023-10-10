@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lumibear")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f682e15e3045fd909c72a4b0973810a5943178d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("lumibear")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lumibear")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

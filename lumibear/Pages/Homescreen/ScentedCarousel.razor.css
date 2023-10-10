@@ -1,0 +1,93 @@
+﻿@font-face {
+    font-family: PoiretOne;
+    src: url('/Assets/Fonts/PoiretOne-Regular.ttf');
+}
+
+.textHeader{
+    text-align: center;
+    font-family: PoiretOne;
+    font-size: 68px;
+    color: white;
+    text-decoration: none;
+}
+
+.image{
+    min-height: 40vh!important;
+    width: 40%!important;
+    background-color: darkorange;
+    margin: 25px;
+    float: left;
+    transition: all 1s;
+}
+
+.insideTextContainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 27%;
+}
+
+
+.insideText{
+    font-family: PoiretOne;
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    transition: all 1s;
+}
+
+.descriptionContainer{
+    font-family: PoiretOne;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+
+
+.carouselContainer {
+    background-color: darkorange;
+    width: 100%;
+    min-height: 70vh !important;
+    max-width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    box-shadow: 0 0 300px rgba(0,0,0,2) inset;
+    transition: all 1s;
+}
+
+.insideContainer{
+    background-color: black;
+    min-width: 90%;
+    min-height: 60vh;
+    margin: 1%;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+li{
+    display: inline-block;
+    min-width: 50%;
+}
+
+.MainButton {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 28px;
+    margin: 10px;
+    transition: 1s;
+}
+
+    .MainButton:hover {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+    }

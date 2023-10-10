@@ -34,13 +34,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-vhrytik8p7
+[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/Pages/Common/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbW9uXE5hdkJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ee80km7zna
 
-[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/Pages/NavBar.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmF2QmFyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-qhk9bphgky
+[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/Pages/Homescreen/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZXNjcmVlblxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-n6ysx53t2h
+
+[D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/Pages/Homescreen/ScentedCarousel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZXNjcmVlblxTY2VudGVkQ2Fyb3VzZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tnm5kszam1
 
 [D:/Users/mateu/source/repos/lumibear/lumibear/lumibear/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

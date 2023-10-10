@@ -1,7 +1,7 @@
 {
   "entryAssembly": "lumibear",
   "resources": {
-    "hash": "sha256-dDffS6vc24lDaNsiyrYP2bZrSuzfhpti7wfuD2JgEQ4=",
+    "hash": "sha256-Y2it36ckSCgDNesuyP7uVDrHWJffui+xLL1UM6v7gvk=",
     "runtime": {
       "dotnet.7.0.11.9xkyyvjqae.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",
       "dotnet.timezones.blat": "sha256-gIJRsMe/q4cM8EeOn+wrpfipBqBOq0niTDjqSBdXsVI=",
@@ -202,10 +202,10 @@
       "mscorlib.dll": "sha256-X+o60j6cZnlI2vFFjdH81yYTAxx13/wqnNSWTKbDsyw=",
       "netstandard.dll": "sha256-Cr6slBs/R2v2t/vecFDHbQHakbEhar0adYu0YemwiXI=",
       "System.Private.CoreLib.dll": "sha256-dDw5nzGJhW1jOjGfSJcs/Mi4KQ+DZygXnoK+vJ+jHyk=",
-      "lumibear.dll": "sha256-WFJWUfzDECSgvZyJhxHEPGeIfubHJ74N247dHWJDmFc="
+      "lumibear.dll": "sha256-prmzRPh/L0+bu1WMZ4a2PYFo/UqKLVktGlkzIsS4LSk="
     },
     "pdb": {
-      "lumibear.pdb": "sha256-LHTcYYA/69dB3/9MF7tW0JQmAsujDSJNq+N08cXUuS4="
+      "lumibear.pdb": "sha256-3YEaCMb0uK2ikrlSqFrByD9RWEAd+Ch2wlpzCH34UB8="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

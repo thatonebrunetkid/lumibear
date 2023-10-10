@@ -1445,8 +1445,9 @@ D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\staticwe
 D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lumibear.props
 D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lumibear.props
 D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\staticwebassets.pack.json
-D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\scopedcss\Pages\Index.razor.rz.scp.css
-D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\scopedcss\Pages\NavBar.razor.rz.scp.css
+D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\scopedcss\Pages\Common\NavBar.razor.rz.scp.css
+D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\scopedcss\Pages\Homescreen\Index.razor.rz.scp.css
+D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\scopedcss\Pages\Homescreen\ScentedCarousel.razor.rz.scp.css
 D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\scopedcss\bundle\lumibear.styles.css
 D:\Users\mateu\source\repos\lumibear\lumibear\lumibear\obj\Debug\net7.0\scopedcss\projectbundle\lumibear.bundle.scp.css
