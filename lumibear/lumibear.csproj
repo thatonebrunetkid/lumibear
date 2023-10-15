@@ -29,4 +29,7 @@
     <Folder Include="wwwroot\Assets\Candles\" />
     <Folder Include="wwwroot\Assets\ScentedStocks\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\Assets\ScentedCarousel\CarouselScript.js" />
+  </ItemGroup>
 </Project>

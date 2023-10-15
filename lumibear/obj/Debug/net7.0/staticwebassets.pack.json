@@ -117,6 +117,34 @@
       "PackagePath": "staticwebassets\\Assets\\MainPage\\mainLogo.gif"
     },
     {
+      "Id": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\wwwroot\\Assets\\ScentedCarousel\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\ScentedCarousel\\1.jpg"
+    },
+    {
+      "Id": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\wwwroot\\Assets\\ScentedCarousel\\2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\ScentedCarousel\\2.jpg"
+    },
+    {
+      "Id": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\wwwroot\\Assets\\ScentedCarousel\\3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\ScentedCarousel\\3.jpg"
+    },
+    {
+      "Id": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\wwwroot\\Assets\\ScentedCarousel\\4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\ScentedCarousel\\4.jpg"
+    },
+    {
+      "Id": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\wwwroot\\Assets\\ScentedCarousel\\5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\ScentedCarousel\\5.jpg"
+    },
+    {
+      "Id": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\wwwroot\\Assets\\ScentedCarousel\\6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\ScentedCarousel\\6.jpg"
+    },
+    {
+      "Id": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\wwwroot\\Assets\\ScentedCarousel\\CarouselScript.js",
+      "PackagePath": "staticwebassets\\Assets\\ScentedCarousel\\CarouselScript.js"
+    },
+    {
       "Id": "D:\\Users\\mateu\\source\\repos\\lumibear\\lumibear\\lumibear\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
